@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "406744337703",
+    "firebase_url": "https://prinstur-156908.firebaseio.com",
+    "project_id": "prinstur-156908",
+    "storage_bucket": "prinstur-156908.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406744337703:android:30a52ffab3c293f2",
+        "android_client_info": {
+          "package_name": "customer.prinstur.prinstur"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406744337703-7gv3dhvkh1bcfb12u0nehj39s6ddspp7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7jA17TchtPzpG0eJX9-TqqAp4twId7eU"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
