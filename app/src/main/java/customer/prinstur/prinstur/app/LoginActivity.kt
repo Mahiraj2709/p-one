@@ -12,7 +12,6 @@ import customer.prinstur.prinstur.data.local.PrefsHelper
 import customer.prinstur.prinstur.interfaces.ApplicationMetadata
 import customer.prinstur.prinstur.utils.CommonMethods
 import customer.prinstur.prinstur.utils.DialogFactory
-import droidninja.filepicker.FilePickerBuilder
 import kotlinx.android.synthetic.main.activity_login.*
 import java.util.*
 
@@ -40,10 +39,12 @@ class LoginActivity : AppCompatActivity() {
         }
         btn_login.setOnClickListener {
             //loginUser()
-            FilePickerBuilder.getInstance().setMaxCount(10)
+            /*FilePickerBuilder.getInstance().setMaxCount(10)
                     //.setSelectedFiles(filePaths)
                     .setActivityTheme(R.style.AppTheme)
-                    .pickFile(this);
+                    .pickFile(this);*/
+
+            startActivity(Intent(this,FareCalculateActivity::class.java))
         }
 
         //check if already rated
